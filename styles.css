@@ -1,0 +1,87 @@
+body {
+    background-color:   #f5f2c5;
+}
+
+h1
+ {color: #165f0c;
+ 
+}
+
+.card{
+    height: auto;
+    width: 350px;
+}
+
+p{
+    font-size: small;
+}
+
+.hero{
+    width: 80%;
+    margin: auto;
+}
+
+.navbar{
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #165f0c;
+    
+   
+}
+
+
+ul{
+    flex: 1;
+    text-align: right;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 25px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    position: relative;
+}
+
+ul li a::after{
+    content: '';
+    width: 0;
+    height: 10px;
+    background: #165f0c;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;
+    transition: 0.5s;
+}
+
+ul li a:hover:after{
+width: 100%;
+
+}
+
+
+
+.cards{
+    background-color: white;
+    height: 500px;
+}
+
+.col{
+padding-top: 85px;
+}
+
+#search-icon{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+
+
